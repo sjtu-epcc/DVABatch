@@ -1,0 +1,16 @@
+{
+  "configurations": [
+    {
+      "name": "Linux",
+      "includePath": ["${workspaceFolder}/**"],
+      "defines": [],
+      "compilerPath": "/usr/bin/g++",
+      "cStandard": "c11",
+      "intelliSenseMode": "linux-gcc-x64",
+      "mergeConfigurations": true,
+      "compileCommands": "${workspaceFolder}/build/compile_commands.json",
+      "cppStandard": "c++17"
+    }
+  ],
+  "version": 4
+}

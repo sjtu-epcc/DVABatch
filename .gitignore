@@ -1,0 +1,9 @@
+.python-version
+.envrc
+build
+__pycache__
+models/bert/engines
+models/bert/models
+core
+!core/
+# .vscode
