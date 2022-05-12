@@ -99,6 +99,8 @@ if(${TRITON_ENABLE_NVTX})
   add_definitions(-DTRITON_ENABLE_NVTX=1)
 endif() # TRITON_ENABLE_NVTX
 
+add_compile_definitions("DBG_MACRO_DISABLE")
+add_compile_definitions("DBG_MACRO_NO_WARNING")
 #
 # Shared library implementing the Triton Backend API
 #
