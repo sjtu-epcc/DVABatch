@@ -50,7 +50,7 @@ make -j
 make install
 ```
 
-- This repo only consists the source files for DVABatch runtime system. DVABatch relies on [Triton Inference Server](https://github.com/triton-inference-server/server.git) to provide DNN services. Therefore, we need to install Triton Inference Server. We also provide a customized Triton Inference Server [here](https://github.com/Raphael-Hao/lego_server) for DVABatch in this repo to simple test. We now build the customized Triton Inference Server.
+- This repo only consists the source files for DVABatch runtime system. DVABatch relies on [Triton Inference Server](https://github.com/triton-inference-server/server.git) to provide DNN services. Therefore, we need to install Triton Inference Server. We also provide a customized Triton Inference Server [here](https://github.com/Raphael-Hao/lego_server) for DVABatch in this repo for simple test. We now build the customized Triton Inference Server.
 
 ```bash
 git clone https://github.com/Raphael-Hao/lego_server.git $HOME/DVABatch/server
