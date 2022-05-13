@@ -32,10 +32,10 @@ The DNN inferences are often batched for better utilizing the hardware in existi
 
 ## Getting Start
 
-- Asuming you have the above requirements and you are in the `$HOME` directory, you can clone the repository and start the installation.
+- Assuming you have the above requirements and you are in the `$HOME` directory, you can clone the repository and start the installation.
 
 ```bash
-mkdir DVAbatch
+mkdir $HOME/DVABatch
 git clone git@github.com:sjtu-epcc/DVABatch.git DVAbatch/lego
 ```
 
